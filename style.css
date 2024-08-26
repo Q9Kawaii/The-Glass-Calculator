@@ -1,0 +1,132 @@
+.body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    background-image: url(background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.case{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+    width: 90vw;
+    height: 90vh;
+    max-width: 326.2px;
+    max-height: 571px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.screencase{
+        /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    width: 90%;
+    height: 20%;
+}
+
+.display{
+    font-family: monospace !important;
+    font-weight: bold;
+    font-size: 4em;
+    border: 0px solid;
+    color: aliceblue;
+    background-color: transparent;
+    height: 90%;
+    width: 95%;
+}
+
+.buttoncase{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    margin-top: 4%;
+    width: 90%;
+    height: 71.5%;
+    margin-bottom: 4%;
+    flex-direction: column;
+}
+
+.line{
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    /* From https://css.glass */
+
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    margin: 02px;
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+}
+.sidebutton{
+    background-color: rgba(255, 255, 255, 0.2);
+
+    transition: background-color 0.2s;
+    transition:transform 0.1s;
+    color: rgb(66, 71, 73);
+}
+
+.sidebutton:hover{
+    background-color: rgba(255, 255, 255, 0.534);
+}
+.sidebutton:active{
+    transform: scale(0.95);
+}
+
+.mids{
+    background-color: rgba(255, 255, 255, 0.534);
+    transition: background-color 0.2s;
+    transition:transform 0.1s;
+    color: rgb(60, 65, 67);
+}
+.mids:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.mids:active{
+    transform: scale(0.95);
+}
+
